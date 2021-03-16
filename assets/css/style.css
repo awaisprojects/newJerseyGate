@@ -1,0 +1,52 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+body .primaryColor {
+  color: #ffffff;
+}
+body .heading {
+  font-size: 20px;
+}
+body .p-20 {
+  padding: 20px;
+}
+body .pt-50 {
+  padding-top: 50px;
+}
+body .pb-50 {
+  padding-bottom: 50px;
+}
+body #mainContainer #headerContainer .row nav {
+  padding: 25px 0px;
+}
+body #mainContainer #headerContainer .row nav .btn {
+  outline: none !important;
+}
+body #mainContainer #headerContainer .row nav ul li a {
+  padding-right: 0.9rem;
+  padding-left: 0.9rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+@media screen and (max-width: 780px) {
+  body #mainContainer #headerContainer .row nav ul li a {
+    padding-left: 0px;
+  }
+}
+body #mainContainer #headerContainer .row nav ul li a:hover {
+  color: #766df4;
+}
+body #mainContainer #headerContainer .row nav .primaryBtn {
+  padding: 15px 26px;
+  background-image: linear-gradient(to right, #766df4 0%, #766df4 30%, #6a9bf4 100%);
+  color: #ffffff;
+  outline: none;
+  border-radius: 12px;
+  border: 0px solid;
+}
+body #mainContainer #contenContainer {
+  padding: 100px 0px;
+  background-image: linear-gradient(to right, #766df4 0%, #766df4 30%, #6a9bf4 100%);
+  color: #fff;
+}

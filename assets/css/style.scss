@@ -1,0 +1,72 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  .primaryColor {
+    color: #ffffff;
+  }
+  .heading {
+    font-size: 20px;
+  }
+  .p-20 {
+    padding: 20px;
+  }
+  .pt-50 {
+    padding-top: 50px;
+  }
+  .pb-50 {
+    padding-bottom: 50px;
+  }
+
+  // main container css start
+  #mainContainer {
+    #headerContainer {
+      .row {
+        nav {
+          .btn {
+            outline: none !important;
+          }
+          padding: 25px 0px;
+          ul {
+            li {
+              a {
+                padding-right: 0.9rem;
+                padding-left: 0.9rem;
+                font-weight: 500;
+                font-size: 0.9rem;
+                @media screen and (max-width: 780px) {
+                  padding-left: 0px;
+                }
+                &:hover {
+                  color: #766df4;
+                }
+              }
+            }
+          }
+          .primaryBtn {
+            padding: 15px 26px;
+            background-image: linear-gradient(
+              to right,
+              #766df4 0%,
+              #766df4 30%,
+              #6a9bf4 100%
+            );
+            color: #ffffff;
+            outline: none;
+            border-radius: 12px;
+            border: 0px solid;
+          }
+        }
+      }
+    }
+    #contenContainer {
+      padding: 100px 0px;
+      background-image: linear-gradient(
+        to right,
+        #766df4 0%,
+        #766df4 30%,
+        #6a9bf4 100%
+      );
+      color: #fff;
+    }
+  }
+}
