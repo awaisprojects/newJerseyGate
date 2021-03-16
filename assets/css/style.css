@@ -17,6 +17,16 @@ body .pt-50 {
 body .pb-50 {
   padding-bottom: 50px;
 }
+body .primaryBtn {
+  outline: none;
+  border-radius: 12px;
+  padding: 15px 26px;
+  border: 0px solid;
+}
+body .bgPrimaryBtn {
+  background-image: linear-gradient(to right, #766df4 0%, #766df4 30%, #6a9bf4 100%);
+  color: #ffffff;
+}
 body #mainContainer #headerContainer .row nav {
   padding: 25px 0px;
 }
@@ -24,10 +34,12 @@ body #mainContainer #headerContainer .row nav .btn {
   outline: none !important;
 }
 body #mainContainer #headerContainer .row nav ul li a {
-  padding-right: 0.9rem;
-  padding-left: 0.9rem;
+  padding-right: 0.8rem;
+  padding-left: 0.8rem;
   font-weight: 500;
-  font-size: 0.9rem;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  transition: all 0.9s ease;
 }
 @media screen and (max-width: 780px) {
   body #mainContainer #headerContainer .row nav ul li a {
@@ -37,16 +49,80 @@ body #mainContainer #headerContainer .row nav ul li a {
 body #mainContainer #headerContainer .row nav ul li a:hover {
   color: #766df4;
 }
-body #mainContainer #headerContainer .row nav .primaryBtn {
-  padding: 15px 26px;
-  background-image: linear-gradient(to right, #766df4 0%, #766df4 30%, #6a9bf4 100%);
-  color: #ffffff;
-  outline: none;
-  border-radius: 12px;
-  border: 0px solid;
-}
 body #mainContainer #contenContainer {
-  padding: 100px 0px;
+  padding: 100px 0px 220px 0px;
+  position: relative;
   background-image: linear-gradient(to right, #766df4 0%, #766df4 30%, #6a9bf4 100%);
   color: #fff;
+}
+body #mainContainer #contenContainer .primaryBtn {
+  border: 1px solid;
+  width: 140px;
+  margin: auto;
+  transition: all 0.9s ease;
+}
+body #mainContainer #contenContainer .primaryBtn:hover {
+  background-color: #fff;
+  color: #766df4;
+  border: 1px solid #766df4;
+}
+body #mainContainer #contenContainer .shapeCurve {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+body #mainContainer #contentContainerCover {
+  background-color: green;
+  position: relative;
+}
+body #mainContainer #contentContainerCover .itemsCover {
+  position: absolute;
+  top: -145px;
+}
+body #mainContainer #contentContainerCover .itemsCover .item {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+body #mainContainer #contentContainerCover .itemsCover .item .card {
+  border: 0px solid;
+  border-top-right-radius: 18px;
+  border-top-left-radius: 18px;
+  overflow: hidden;
+}
+body #mainContainer #contentContainerCover .itemsCover .item .card .card-body {
+  color: #4a4b65;
+  padding: 1rem 0rem;
+}
+body #mainContainer #contentContainerCover .itemsCover .item .card .card-body a {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #766df4;
+  color: #fff;
+  transition: all 0.9s ease;
+  padding: 10px 20px;
+}
+body #mainContainer #contentContainerCover .itemsCover .item .card .card-body a:hover {
+  background-color: #595ff1;
+}
+body #mainContainer #contentContainerCover .itemsCover .item .card .card-body .modal-width {
+  max-width: 90% !important;
+}
+body #mainContainer #contentContainerCover .itemsCover .item .card .card-body .modal-width .heading {
+  color: #7078f4;
+}
+body #mainContainer #contentContainerCover .itemsCover .item .card .card-body .modal-width .close {
+  font-size: 32px;
+  line-height: 10px;
+  cursor: pointer;
+}
+body #mainContainer #contentContainerCover .itemsCover .item .card .card-body .modal-width .links {
+  font-weight: 500;
+  cursor: pointer;
+}
+body #mainContainer #contentContainerCover .itemsCover #contentContainer {
+  color: #4a4b65;
+}
+body #mainContainer #contentContainerCover .itemsCover #contentContainer p {
+  line-height: 2rem;
+  word-spacing: 0.2rem;
 }

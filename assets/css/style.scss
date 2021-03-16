@@ -16,6 +16,21 @@ body {
   .pb-50 {
     padding-bottom: 50px;
   }
+  .primaryBtn {
+    outline: none;
+    border-radius: 12px;
+    padding: 15px 26px;
+    border: 0px solid;
+  }
+  .bgPrimaryBtn {
+    background-image: linear-gradient(
+      to right,
+      #766df4 0%,
+      #766df4 30%,
+      #6a9bf4 100%
+    );
+    color: #ffffff;
+  }
 
   // main container css start
   #mainContainer {
@@ -29,10 +44,13 @@ body {
           ul {
             li {
               a {
-                padding-right: 0.9rem;
-                padding-left: 0.9rem;
+                padding-right: 0.8rem;
+                padding-left: 0.8rem;
                 font-weight: 500;
-                font-size: 0.9rem;
+                letter-spacing: 1px;
+                font-size: 0.8rem;
+                transition: all 0.9s ease;
+
                 @media screen and (max-width: 780px) {
                   padding-left: 0px;
                 }
@@ -42,24 +60,12 @@ body {
               }
             }
           }
-          .primaryBtn {
-            padding: 15px 26px;
-            background-image: linear-gradient(
-              to right,
-              #766df4 0%,
-              #766df4 30%,
-              #6a9bf4 100%
-            );
-            color: #ffffff;
-            outline: none;
-            border-radius: 12px;
-            border: 0px solid;
-          }
         }
       }
     }
     #contenContainer {
-      padding: 100px 0px;
+      padding: 100px 0px 220px 0px;
+      position: relative;
       background-image: linear-gradient(
         to right,
         #766df4 0%,
@@ -67,6 +73,80 @@ body {
         #6a9bf4 100%
       );
       color: #fff;
+      .primaryBtn {
+        border: 1px solid;
+        width: 140px;
+        margin: auto;
+        transition: all 0.9s ease;
+        &:hover {
+          background-color: #fff;
+          color: #766df4;
+          border: 1px solid #766df4;
+        }
+      }
+      .shapeCurve {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+      }
+    }
+    #contentContainerCover {
+      background-color: green;
+      position: relative;
+      .itemsCover {
+        position: absolute;
+        top: -145px;
+
+        .item {
+          padding: 10px;
+          margin-bottom: 20px;
+          .card {
+            border: 0px solid;
+            border-top-right-radius: 18px;
+            border-top-left-radius: 18px;
+            overflow: hidden;
+            .card-body {
+              color: #4a4b65;
+              padding: 1rem 0rem;
+              a {
+                text-decoration: none;
+                display: inline-block;
+                background-color: #766df4;
+                color: #fff;
+                transition: all 0.9s ease;
+                padding: 10px 20px;
+
+                &:hover {
+                  background-color: #595ff1;
+                }
+              }
+              .modal-width {
+                max-width: 90% !important;
+                .heading {
+                  color: #7078f4;
+                }
+                .close {
+                  font-size: 32px;
+                  line-height: 10px;
+                  cursor: pointer;
+                }
+                .links {
+                  font-weight: 500;
+                  cursor: pointer;
+                }
+              }
+            }
+          }
+        }
+
+        #contentContainer {
+          color: #4a4b65;
+          p {
+            line-height: 2rem;
+            word-spacing: 0.2rem;
+          }
+        }
+      }
     }
   }
 }
