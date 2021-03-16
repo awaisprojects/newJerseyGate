@@ -151,3 +151,36 @@ body #mainContainer #copyRightContainer {
 body #mainContainer #copyRightContainer h6 {
   margin-bottom: 0px;
 }
+body #mainContainer #bannerContainer {
+  background-image: linear-gradient(to right, #766df4 0%, #766df4 30%, #6a9bf4 100%);
+  padding: 90px 0px;
+}
+body #mainContainer #contentContainer {
+  background-color: #f7f7f7;
+  padding: 90px 0px;
+}
+body #mainContainer #ourProducts {
+  padding: 90px 0px;
+}
+body #mainContainer #ourProducts .ourProduct {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding: 20px 15px;
+}
+body #mainContainer #ourProducts .ourProduct img {
+  width: 100px;
+  height: 100px;
+}
+body #mainContainer #ourProducts .ourProduct .productText {
+  padding-left: 20px;
+}
+body #mainContainer #ourProducts .ourProduct .productText h6 {
+  margin-bottom: 3px;
+}
+body #mainContainer #ourProducts .ourProduct .productText p {
+  font-size: 14px;
+  line-height: 1.3rem;
+  word-spacing: 0.1rem;
+  margin-bottom: 0px;
+}
