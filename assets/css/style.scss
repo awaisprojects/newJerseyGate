@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
+  word-spacing: 0.2rem;
   .primaryColor {
     color: #ffffff;
   }
@@ -91,12 +92,8 @@ body {
       }
     }
     #contentContainerCover {
-      background-color: green;
-      position: relative;
+      margin-top: -140px;
       .itemsCover {
-        position: absolute;
-        top: -145px;
-
         .item {
           padding: 10px;
           margin-bottom: 20px;
@@ -138,20 +135,45 @@ body {
             }
           }
         }
+      }
+    }
+    #contentContainer {
+      color: #4a4b65;
+      p {
+        line-height: 2rem;
+        word-spacing: 0.2rem;
+      }
+    }
+    #galleryContainer {
+      color: #4a4b65;
+      img {
+        width: 100%;
+        margin-bottom: 25px;
+      }
+    }
+    #servicesContainer {
+      background-color: #f7f7fc;
+      color: #4a4b65;
+      padding: 80px 0px;
 
-        #contentContainer {
-          color: #4a4b65;
-          p {
-            line-height: 2rem;
-            word-spacing: 0.2rem;
-          }
+      img {
+        width: 100%;
+      }
+      ul {
+        li {
+          padding: 8px 0px;
         }
-        #galleryContainer {
-          img {
-            width: 100%;
-            margin-bottom: 25px;
-          }
-        }
+      }
+    }
+    #footerContainer {
+      background-color: #37384e;
+      color: #ffffff;
+    }
+    #copyRightContainer {
+      background-color: #2c2d3f;
+      color: #fff;
+      h6 {
+        margin-bottom: 0px;
       }
     }
   }

@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
+  word-spacing: 0.2rem;
 }
 body .primaryColor {
   color: #ffffff;
@@ -72,12 +73,7 @@ body #mainContainer #contenContainer .shapeCurve {
   width: 100%;
 }
 body #mainContainer #contentContainerCover {
-  background-color: green;
-  position: relative;
-}
-body #mainContainer #contentContainerCover .itemsCover {
-  position: absolute;
-  top: -145px;
+  margin-top: -140px;
 }
 body #mainContainer #contentContainerCover .itemsCover .item {
   padding: 10px;
@@ -119,14 +115,39 @@ body #mainContainer #contentContainerCover .itemsCover .item .card .card-body .m
   font-weight: 500;
   cursor: pointer;
 }
-body #mainContainer #contentContainerCover .itemsCover #contentContainer {
+body #mainContainer #contentContainer {
   color: #4a4b65;
 }
-body #mainContainer #contentContainerCover .itemsCover #contentContainer p {
+body #mainContainer #contentContainer p {
   line-height: 2rem;
   word-spacing: 0.2rem;
 }
-body #mainContainer #contentContainerCover .itemsCover #galleryContainer img {
+body #mainContainer #galleryContainer {
+  color: #4a4b65;
+}
+body #mainContainer #galleryContainer img {
   width: 100%;
   margin-bottom: 25px;
+}
+body #mainContainer #servicesContainer {
+  background-color: #f7f7fc;
+  color: #4a4b65;
+  padding: 80px 0px;
+}
+body #mainContainer #servicesContainer img {
+  width: 100%;
+}
+body #mainContainer #servicesContainer ul li {
+  padding: 8px 0px;
+}
+body #mainContainer #footerContainer {
+  background-color: #37384e;
+  color: #ffffff;
+}
+body #mainContainer #copyRightContainer {
+  background-color: #2c2d3f;
+  color: #fff;
+}
+body #mainContainer #copyRightContainer h6 {
+  margin-bottom: 0px;
 }
