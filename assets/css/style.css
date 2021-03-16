@@ -126,3 +126,7 @@ body #mainContainer #contentContainerCover .itemsCover #contentContainer p {
   line-height: 2rem;
   word-spacing: 0.2rem;
 }
+body #mainContainer #contentContainerCover .itemsCover #galleryContainer img {
+  width: 100%;
+  margin-bottom: 25px;
+}
