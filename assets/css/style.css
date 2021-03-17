@@ -3,21 +3,6 @@ body {
   font-size: 1rem;
   word-spacing: 0.2rem;
 }
-body .primaryColor {
-  color: #ffffff;
-}
-body .heading {
-  font-size: 20px;
-}
-body .p-20 {
-  padding: 20px;
-}
-body .pt-50 {
-  padding-top: 50px;
-}
-body .pb-50 {
-  padding-bottom: 50px;
-}
 body .primaryBtn {
   outline: none;
   border-radius: 12px;
@@ -125,9 +110,24 @@ body #mainContainer #contentContainer p {
 body #mainContainer #galleryContainer {
   color: #4a4b65;
 }
-body #mainContainer #galleryContainer img {
+body #mainContainer #galleryContainer .imgCover {
+  position: relative;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+body #mainContainer #galleryContainer .imgCover img {
   width: 100%;
-  margin-bottom: 25px;
+}
+body #mainContainer #galleryContainer .imgCover .layer {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  transition: all 0.9s ease;
+}
+body #mainContainer #galleryContainer .imgCover .layer:hover {
+  background-color: rgba(117, 109, 244, 0.6);
 }
 body #mainContainer #servicesContainer {
   background-color: #f7f7fc;
@@ -152,7 +152,6 @@ body #mainContainer #copyRightContainer h6 {
   margin-bottom: 0px;
 }
 body #mainContainer #bannerContainer {
-  background-image: linear-gradient(to right, #766df4 0%, #766df4 30%, #6a9bf4 100%);
   padding: 90px 0px;
 }
 body #mainContainer #contentContainer {
@@ -183,4 +182,13 @@ body #mainContainer #ourProducts .ourProduct .productText p {
   line-height: 1.3rem;
   word-spacing: 0.1rem;
   margin-bottom: 0px;
+}
+body #mainContainer #ourServices {
+  color: #4a4b65;
+}
+body #mainContainer #ourServices ul li {
+  padding: 6px 0px;
+}
+body #mainContainer .liftmaster img {
+  margin: 30px 0px;
 }
