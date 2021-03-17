@@ -280,7 +280,10 @@ body {
       }
     }
     // steel page steelContent container start
-    #steel {
+    .steel {
+      iframe {
+        width: 100%;
+      }
     }
   }
 }

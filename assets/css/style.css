@@ -231,3 +231,6 @@ body #mainContainer #contectContainer .card form .submitBtn a {
 body #mainContainer #contectContainer .card form .submitBtn a:hover {
   background-color: #595ff1;
 }
+body #mainContainer .steel iframe {
+  width: 100%;
+}
