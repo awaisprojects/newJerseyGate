@@ -5,7 +5,7 @@ body {
 
   .primaryBtn {
     outline: none;
-    border-radius: 12px;
+    border-radius: 7px;
     padding: 15px 26px;
     border: 0px solid;
   }
@@ -35,7 +35,7 @@ body {
                 padding-left: 0.8rem;
                 font-weight: 500;
                 letter-spacing: 1px;
-                font-size: 0.8rem;
+                font-size: 1rem;
                 transition: all 0.9s ease;
 
                 @media screen and (max-width: 780px) {
@@ -45,6 +45,11 @@ body {
                   color: #766df4;
                 }
               }
+            }
+          }
+          form {
+            a {
+              text-decoration: none;
             }
           }
         }
@@ -103,6 +108,11 @@ body {
                   background-color: #595ff1;
                 }
               }
+
+              .modal-content {
+                padding: 20px;
+              }
+
               .modal-width {
                 max-width: 90% !important;
                 .heading {
@@ -239,6 +249,35 @@ body {
       background-repeat: no-repeat;
       background-size: cover;
       height: 500px;
+    }
+    // contectContainer css start
+    #contectContainer {
+      color: #4a4b65;
+      margin-bottom: 150px;
+      .card {
+        padding: 25px;
+        form {
+          input,
+          textarea {
+            margin: 5px 0px 12px 0px;
+          }
+          .submitBtn {
+            text-align: right;
+            a {
+              text-decoration: none;
+              display: inline-block;
+              background-color: #766df4;
+              color: #fff;
+              transition: all 0.9s ease;
+              padding: 10px 20px;
+
+              &:hover {
+                background-color: #595ff1;
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

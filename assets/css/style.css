@@ -5,7 +5,7 @@ body {
 }
 body .primaryBtn {
   outline: none;
-  border-radius: 12px;
+  border-radius: 7px;
   padding: 15px 26px;
   border: 0px solid;
 }
@@ -24,7 +24,7 @@ body #mainContainer #headerContainer .row nav ul li a {
   padding-left: 0.8rem;
   font-weight: 500;
   letter-spacing: 1px;
-  font-size: 0.8rem;
+  font-size: 1rem;
   transition: all 0.9s ease;
 }
 @media screen and (max-width: 780px) {
@@ -34,6 +34,9 @@ body #mainContainer #headerContainer .row nav ul li a {
 }
 body #mainContainer #headerContainer .row nav ul li a:hover {
   color: #766df4;
+}
+body #mainContainer #headerContainer .row nav form a {
+  text-decoration: none;
 }
 body #mainContainer #contenContainer {
   padding: 100px 0px 220px 0px;
@@ -84,6 +87,9 @@ body #mainContainer #contentContainerCover .itemsCover .item .card .card-body a 
 }
 body #mainContainer #contentContainerCover .itemsCover .item .card .card-body a:hover {
   background-color: #595ff1;
+}
+body #mainContainer #contentContainerCover .itemsCover .item .card .card-body .modal-content {
+  padding: 20px;
 }
 body #mainContainer #contentContainerCover .itemsCover .item .card .card-body .modal-width {
   max-width: 90% !important;
@@ -199,4 +205,29 @@ body #mainContainer .chamberlain {
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
+}
+body #mainContainer #contectContainer {
+  color: #4a4b65;
+  margin-bottom: 150px;
+}
+body #mainContainer #contectContainer .card {
+  padding: 25px;
+}
+body #mainContainer #contectContainer .card form input,
+body #mainContainer #contectContainer .card form textarea {
+  margin: 5px 0px 12px 0px;
+}
+body #mainContainer #contectContainer .card form .submitBtn {
+  text-align: right;
+}
+body #mainContainer #contectContainer .card form .submitBtn a {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #766df4;
+  color: #fff;
+  transition: all 0.9s ease;
+  padding: 10px 20px;
+}
+body #mainContainer #contectContainer .card form .submitBtn a:hover {
+  background-color: #595ff1;
 }
