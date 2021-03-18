@@ -59,7 +59,9 @@ body #mainContainer #headerContainer .row nav form a {
 body #mainContainer #contenContainer {
   padding: 100px 0px 220px 0px;
   position: relative;
-  background-image: linear-gradient(to right, #766df4 0%, #766df4 30%, #6a9bf4 100%);
+  background: linear-gradient(to right, rgba(118, 109, 244, 0) 0%, rgba(118, 109, 244, 0) 30%, rgba(106, 155, 244, 0) 100%), url("../images/leaves.jpg");
+  background-size: cover;
+  background-attachment: fixed;
   color: #fff;
 }
 body #mainContainer #contenContainer .primaryBtn {
