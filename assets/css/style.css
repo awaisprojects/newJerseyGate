@@ -28,6 +28,9 @@ body .bgPrimaryBtn {
   background-image: linear-gradient(to right, #766df4 0%, #766df4 30%, #6a9bf4 100%);
   color: #ffffff;
 }
+body .primaryColor {
+  color: #4a4b65;
+}
 body #mainContainer #headerContainer .row nav {
   padding: 25px 0px;
 }
@@ -243,12 +246,48 @@ body #mainContainer #chamberlain {
 }
 body #mainContainer .chamberlainBgImg {
   height: 300px;
-  background-image: url(../images/chamberlainL2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
   background-position: center;
   background-attachment: fixed;
+}
+body #mainContainer .chamberlainBgImg1 {
+  background-image: url(../images/chamberlainL2.jpg);
+}
+body #mainContainer .chamberlainBgImg2 {
+  background-image: url(../images/chamberlainL1.jpg);
+}
+body #mainContainer .chamberlainBgImg3 {
+  background-image: url(../images/chamberlainL3.jpg);
+}
+body #mainContainer .chamberlainBgImg4 {
+  background-image: url(../images/chamberlainL4.jpg);
+}
+body #mainContainer .chamberlainSection2 .itemImg {
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 0px solid #6d6e69;
+}
+body #mainContainer .chamberlainSection2 .img2 {
+  background-image: url(../images/chamberlain3.jpg);
+}
+body #mainContainer .chamberlainSection2 .img1 {
+  background-image: url(../images/chamberlain2.jpg);
+}
+body #mainContainer .chamberlainSection2 .img3 {
+  background-image: url(../images/chamberlain4.jpg);
+}
+body #mainContainer .chamberlainSection2 .img4 {
+  background-image: url(../images/chamberlain5.jpg);
+}
+body #mainContainer .chamberlainSection2 .img5 {
+  background-image: url(../images/chamberlain6.jpg);
+}
+body #mainContainer .chamberlainSection2 .img6 {
+  background-image: url(../images/chamberlains1.jpg);
 }
 body #mainContainer #contectContainer {
   color: #4a4b65;
