@@ -133,20 +133,40 @@ body #mainContainer #galleryContainer .imgCover {
   position: relative;
   margin-bottom: 20px;
   border-radius: 10px;
-  overflow: hidden;
-}
-body #mainContainer #galleryContainer .imgCover img {
+  height: 300px;
   width: 100%;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #6d6e69;
 }
 body #mainContainer #galleryContainer .imgCover .layer {
   position: absolute;
   top: 0px;
+  border-radius: 10px;
   bottom: 0px;
   width: 100%;
   transition: all 0.9s ease;
 }
 body #mainContainer #galleryContainer .imgCover .layer:hover {
   background-color: rgba(117, 109, 244, 0.6);
+}
+body #mainContainer #galleryContainer .item1 {
+  background-image: url(../images/gate7.png);
+}
+body #mainContainer #galleryContainer .item2 {
+  background-image: url(../images/gate4.jpg);
+}
+body #mainContainer #galleryContainer .item3 {
+  background-image: url(../images/gate5.jpg);
+}
+body #mainContainer #galleryContainer .item4 {
+  background-image: url(../images/gate6.jpg);
+}
+body #mainContainer #galleryContainer .item5 {
+  background-image: url(../images/gate7.jpg);
+}
+body #mainContainer #galleryContainer .item6 {
+  background-image: url(../images/gate3.gif);
 }
 body #mainContainer #servicesContainer {
   background-color: #f7f7fc;
@@ -306,4 +326,31 @@ body #mainContainer #contectContainer .contactDetails ul li .location {
 }
 body #mainContainer .steel iframe {
   width: 100%;
+}
+body #mainContainer .aluminumContainer .item1 {
+  background-image: url(../images/aluminum1.jpg) !important;
+}
+body #mainContainer .aluminumContainer .item2 {
+  background-image: url(../images/aluminum2.jpg) !important;
+}
+body #mainContainer .aluminumContainer .item3 {
+  background-image: url(../images/aluminum3.jpg) !important;
+}
+body #mainContainer .aluminumContainer .item4 {
+  background-image: url(../images/aluminum9.jpg) !important;
+}
+body #mainContainer .aluminumContainer .item5 {
+  background-image: url(../images/aluminum5.jpg) !important;
+}
+body #mainContainer .aluminumContainer .item6 {
+  background-image: url(../images/aluminum6.jpg) !important;
+}
+body #mainContainer .aluminumContainer .item7 {
+  background-image: url(../images/aluminum7.jpg) !important;
+}
+body #mainContainer .aluminumContainer .item8 {
+  background-image: url(../images/aluminum8.jpg) !important;
+}
+body #mainContainer .aluminumContainer .item9 {
+  background-image: url(../images/aluminum4.jpg) !important;
 }

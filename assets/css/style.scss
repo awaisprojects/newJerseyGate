@@ -161,13 +161,17 @@ body {
         position: relative;
         margin-bottom: 20px;
         border-radius: 10px;
-        overflow: hidden;
-        img {
-          width: 100%;
-        }
+        height: 300px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        border: 1px solid #6d6e69;
+
         .layer {
           position: absolute;
           top: 0px;
+          border-radius: 10px;
+
           bottom: 0px;
           width: 100%;
           transition: all 0.9s ease;
@@ -175,6 +179,24 @@ body {
             background-color: rgba(117, 109, 244, 0.6);
           }
         }
+      }
+      .item1 {
+        background-image: url(../images/gate7.png);
+      }
+      .item2 {
+        background-image: url(../images/gate4.jpg);
+      }
+      .item3 {
+        background-image: url(../images/gate5.jpg);
+      }
+      .item4 {
+        background-image: url(../images/gate6.jpg);
+      }
+      .item5 {
+        background-image: url(../images/gate7.jpg);
+      }
+      .item6 {
+        background-image: url(../images/gate3.gif);
       }
     }
     #servicesContainer {
@@ -358,6 +380,37 @@ body {
     .steel {
       iframe {
         width: 100%;
+      }
+    }
+
+    // aluminumContainer Page css start
+    .aluminumContainer {
+      .item1 {
+        background-image: url(../images/aluminum1.jpg) !important;
+      }
+      .item2 {
+        background-image: url(../images/aluminum2.jpg) !important;
+      }
+      .item3 {
+        background-image: url(../images/aluminum3.jpg) !important;
+      }
+      .item4 {
+        background-image: url(../images/aluminum9.jpg) !important;
+      }
+      .item5 {
+        background-image: url(../images/aluminum5.jpg) !important;
+      }
+      .item6 {
+        background-image: url(../images/aluminum6.jpg) !important;
+      }
+      .item7 {
+        background-image: url(../images/aluminum7.jpg) !important;
+      }
+      .item8 {
+        background-image: url(../images/aluminum8.jpg) !important;
+      }
+      .item9 {
+        background-image: url(../images/aluminum4.jpg) !important;
       }
     }
   }
