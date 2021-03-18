@@ -70,6 +70,9 @@ body #mainContainer #contenContainer .primaryBtn:hover {
   color: #766df4;
   border: 1px solid #766df4;
 }
+body #mainContainer.chamberlainPage #contenContainer {
+  padding: 0;
+}
 body #mainContainer #contentContainerCover {
   margin-top: -140px;
 }

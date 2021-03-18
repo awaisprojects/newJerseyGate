@@ -91,6 +91,12 @@ body {
         }
       }
     }
+
+    &.chamberlainPage {
+      #contenContainer {
+        padding: 0;
+      }
+    }
     #contentContainerCover {
       margin-top: -140px;
       .itemsCover {
