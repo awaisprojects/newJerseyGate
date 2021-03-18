@@ -87,6 +87,9 @@ body {
         width: 140px;
         margin: auto;
         transition: all 0.9s ease;
+        display: block;
+        color: #fff;
+        text-decoration: none;
         &:hover {
           background-color: #fff;
           color: #766df4;
